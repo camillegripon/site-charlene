@@ -7,9 +7,9 @@ export default function Header() {
       <nav>
         <img src="/photo/rectangle.jpg" id="Logo" alt="Logo" />
         <div className="nav-links">
-          <Link to="/">Accueil</Link>
-          <Link to="/a-propos">À propos</Link>
-          <Link to="/contact">Contact</Link>
+          <a href="#approche">Approche</a>
+          <a href="#formation">Formation</a>
+          <a href="#footer">Contact</a>
           <Link to="https://www.doctolib.fr/" className="button">Prendre RDV</Link>
         </div>
       </nav>

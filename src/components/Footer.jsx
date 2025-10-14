@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
     <footer>
-      <div className="footer-content">
+      <div className="footer-content" id="footer">
         <div className="footer-section">
           <h3>Contact</h3>
           <p><i className="fas fa-map-marker-alt"></i> Adresse du cabinet</p>

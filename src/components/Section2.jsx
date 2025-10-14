@@ -3,20 +3,18 @@ import { Link } from 'react-router-dom';
 export default function Section2() {
   return (
 
-      <section className="section">
-        <h2>Pourquoi me consulter ?</h2>
+      <section className="section" id="approche">
+        <h2>Approche psychodynamique</h2>
         <div className="cards">
           <div className="card">
-            <h3>Approche bienveillante</h3>
-            <p>Un espace sécurisé pour explorer vos difficultés sans jugement.</p>
-          </div>
-          <div className="card">
-            <h3>Expertise reconnue</h3>
-            <p>Diplômée de Caen, formée à la méthode Heimlich et Montessori.</p>
-          </div>
-          <div className="card">
-            <h3>Flexibilité</h3>
-            <p>Séances en cabinet ou en visio, selon vos besoins.</p>
+            <p>
+J’inscris mon accompagnement dans une approche psychodynamique, centrée sur la singularité de chaque personne, sur la compréhension et l’analyse fine de son vécu.
+Je propose un espace sécurisant, confidentiel et bienveillant, où la parole peut se déployer librement, dans l’écoute, le respect et sans jugement.
+Mon travail vise à mettre du sens et en perspective ce qui se vit aujourd’hui, à partir de l’histoire personnelle et du parcours singulier de chacun.
+Au fil des séances, nous pouvons repérer les répétitions, identifier les mécanismes à l’œuvre, favoriser les prises de conscience et accéder à une meilleure connaissance de soi.
+Ce cheminement permet peu à peu de retrouver un mieux-être, d’aborder les crises et changements de vie avec plus de souplesse, et de renouer avec un sentiment de cohérence et d’apaisement.
+Mon cadre de travail s’appuie sur les principes du code de déontologie des psychologues, garantissant le respect de la personne, de son intégrité, de sa liberté et de ses valeurs.
+Tout au long des entretiens et du travail thérapeutique, j’accorde une attention particulière au consentement : chaque étape se construit dans un dialogue ouvert, afin que la démarche reste toujours claire, choisie et respectueuse du rythme propre à chacun.</p>
           </div>
         </div>
       </section>
