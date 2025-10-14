@@ -12,6 +12,8 @@ body {
   background-image: linear-gradient(to bottom, #f8f9fa, #e9ecef); 
   min-height: 100vh; 
   background-image: url("/photo/fond.png");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 
