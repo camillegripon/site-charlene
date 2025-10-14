@@ -13,9 +13,6 @@ Mots clés :
 le deuil, la séparation, le traumatisme, la souffrance au travail ou à l’école, les troubles ou douleurs physiques et psychiques, ainsi que les difficultés relationne</p>
           </div>
         </div>
-        <div className="cta-center">
-          <Link to="https://www.doctolib.fr/" className="button outline">Prendre RDV</Link>
-        </div>
       </section>
   );
 }
