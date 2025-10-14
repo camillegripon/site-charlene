@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
       <nav>
-        <img src="../public/photo/rectangle.jpg" id="Logo" alt="Logo" />
+        <img src="/public/photo/rectangle.jpg" id="Logo" alt="Logo" />
         <div className="nav-links">
           <Link to="/">Accueil</Link>
           <Link to="/a-propos">À propos</Link>
