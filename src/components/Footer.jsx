@@ -6,9 +6,9 @@ export default function Footer() {
       <div className="footer-content" id="footer">
         <div className="footer-section">
           <h3>Contact</h3>
-          <p><i className="fas fa-map-marker-alt"></i> Adresse du cabinet</p>
-          <p><i className="fas fa-phone"></i> 0X XX XX XX XX</p>
-          <p><i className="fas fa-envelope"></i> contact@nom-psychologue.fr</p>
+          <p><i className="fas fa-map-marker-alt"></i> Adresse du cabinet : CCSM 53 rue de Strasbourg Hérouville-Saint-Clair</p>
+          <p><i className="fas fa-phone"></i> N°RPPS :  10009189654</p>
+          <p><i className="fas fa-envelope"></i> N°Adeli : 149308736</p>
         </div>
         <div className="footer-section">
           <h3>Liens utiles</h3>
@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2025 Nom Prénom - Psychologue. Tous droits réservés.</p>
+        <p>&copy; 2025 Guérard Charlène - Psychologue. Tous droits réservés.</p>
       </div>
     </footer>
   );
