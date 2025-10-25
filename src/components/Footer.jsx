@@ -13,9 +13,8 @@ export default function Footer() {
         <div className="footer-section">
           <h3>Liens utiles</h3>
           <Link to="/">Accueil</Link>
-          <Link to="/a-propos">À propos</Link>
-          <Link to="/contact">Contact</Link>
-          <Link to="/agenda">Prendre rendez-vous</Link>
+          <a href="https://www.instagram.com/ccsm.herouville/?igsh=Z2cxbm92dW51OHZj#"><i class="fa-brands fa-instagram"></i>Le CCSM</a>
+          <Link to="https://www.doctolib.fr/">Prendre rendez-vous</Link>
         </div>
         <div className="footer-section">
           <h3>Informations</h3>

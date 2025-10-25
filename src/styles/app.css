@@ -1,5 +1,6 @@
 :root {
   --main-bg-color : rgba(98, 76, 68);
+  --secondary-bg-color : rgba(255, 248, 242);
 }
 
 * {
@@ -8,19 +9,30 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%; 
+  margin: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   line-height: 1.6;
   background-color: #fefefe; 
   background-image: linear-gradient(to bottom, #f8f9fa, #e9ecef); 
   min-height: 100vh; 
-  background-image: url("/photo/fond.png");
+  background-image: url("/photo/fond2.png");
   background-size: cover;
   background-attachment: fixed;
+  min-height: 100%;
 }
 
 
@@ -28,17 +40,18 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-
+  flex: 1;
 }
 
 /* En-tête */
 header {
-  background: white; 
+  background: var(--secondary-bg-color); 
   padding: 15px 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); 
   position: sticky;
   top: 0;
   z-index: 100;
+  margin-bottom: 20px;
 }
 
 nav {
@@ -86,6 +99,11 @@ nav a:hover {
 }
 
 /* Sections générales */
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+}
 .section {
   padding: 60px 0;
   text-align: center;
@@ -112,6 +130,7 @@ nav a:hover {
   background: white;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .card h3 {
@@ -121,12 +140,17 @@ nav a:hover {
 
 .card p {
   color: #666;
+  font-size: large;
 }
 
 .card-icon {
   font-size: 2.5rem;
   margin-bottom: 15px;
   color: #6ca6c1;
+}
+
+.card p {
+  text-align: justify;
 }
 
 /* Section "Déroulé des séances" */
@@ -167,12 +191,12 @@ footer {
   color: white;
   text-align: center;
   padding: 30px 0;
-  margin-top: 40px;
+  margin-top: auto;
 }
 
 /* Footer */
 footer {
-  background: #2c3e50; /* Bleu foncé rassurant */
+  background: #2c3e50; 
   color: white;
   padding: 40px 0 20px;
   margin-top: 60px;
