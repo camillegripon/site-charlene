@@ -18,13 +18,17 @@ html {
   scroll-behavior: smooth;
 }
 
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
 #root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 body {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   background-color: #fefefe; 
   background-image: linear-gradient(to bottom, #f8f9fa, #e9ecef); 
