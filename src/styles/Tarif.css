@@ -1,0 +1,27 @@
+.page {
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 30%;
+  min-width: 250px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #e3f2fd; /* Couleur unique */
+  border: 1px solid #bbdefb; /* Bordure assortie */
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #333;
+}

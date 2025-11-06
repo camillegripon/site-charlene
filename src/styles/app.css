@@ -292,3 +292,42 @@ footer {
     height: 250px;
   }
 }
+
+/* Section "Approche psychodynamique" */
+.approche-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  text-align: left;
+}
+
+.approche-image {
+  flex: 0 0 300px; /* Largeur fixe pour l'image */
+  min-width: 250px;
+}
+
+.approche-text {
+  flex: 1; /* Le texte prend l'espace restant */
+}
+
+.approche-text p {
+  margin-bottom: 15px;
+  color: #666;
+  font-size: large;
+  text-align: justify;
+}
+
+/* Responsive : empiler image et texte sur mobile */
+@media (max-width: 768px) {
+  .approche-container {
+    flex-direction: column;
+  }
+  .approche-image {
+    flex: none;
+    width: 100%;
+  }
+  .approche-image img {
+    max-width: 100%;
+    height: auto;
+  }
+}

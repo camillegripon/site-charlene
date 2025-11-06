@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="footer-section">
           <h3>Informations</h3>
           <Link to="/mentions-legales">Mentions légales</Link>
-          <Link to="/politique-confidentialite">Confidentialité</Link>
+          <Link to="/confidentialite">Confidentialité</Link>
         </div>
       </div>
       <div className="footer-bottom">
