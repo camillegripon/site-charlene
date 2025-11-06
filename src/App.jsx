@@ -5,23 +5,27 @@ import Accueil from './pages/Accueil';
 import Tarif from './pages/Tarif';
 import Contact from './pages/Contact';
 import Agenda from './pages/Agenda';
-import MentionsLegales from './pages/MentionsLegages';
+import MentionsLegales from './pages/MentionsLegales';
 import Confidentialite from './pages/Confidentialite';
-import './styles/app.css'; // Feuille de style globale
+import './styles/app.css';
 
 function App() {
   return (
     <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Accueil />} />
-        <Route path="/tarif" element={<Tarif />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/agenda" element={<Agenda />} />
-        <Route path="/mentions-legales" element={<MentionsLegales />} />
-        <Route path="/confidentialite" element={<Confidentialite />} />
-      </Routes>
-      <Footer />
+      <div className="app-container">
+        <Header /> {/* Sera maintenant une sidebar à gauche */}
+        <div className="main-content">
+          <Routes>
+            <Route path="/" element={<Accueil />} />
+            <Route path="/tarif" element={<Tarif />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/agenda" element={<Agenda />} />
+            <Route path="/mentions-legales" element={<MentionsLegales />} />
+            <Route path="/confidentialite" element={<Confidentialite />} />
+          </Routes>
+          <Footer />
+        </div>
+      </div>
     </Router>
   );
 }
