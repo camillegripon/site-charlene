@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-/* Sidebar fixe à gauche */
+
 .sidebar {
   position: fixed;
   left: 0;
@@ -19,22 +19,22 @@
   align-items: center;
 }
 
-/* Logo centré en haut */
+
 .logo-link {
   display: block;
   margin-bottom: 30px;
 }
 
-/* Liens empilés verticalement */
+
 .nav-links {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px; /* Espace entre les liens */
+  gap: 15px; /
 }
 
-/* Style des liens */
+
 .nav-links a {
   text-decoration: none;
   color: #555;

@@ -8,15 +8,11 @@ export default function MentionsLegales() {
       Charlène GUÉRARD<br />
       Psychologue<br />
       Adresse du cabinet : CCSM, 53 rue de Strasbourg, 14200 Hérouville-Saint-Clair<br />
-      Téléphone : [À compléter]<br />
-      Email : [À compléter]</p>
+      Téléphone :  0636275480<br />
+      Email : guerardpsychologue@outlook.fr</p>
 
       <p><strong>Numéro RPPS :</strong> 10009189654<br />
       <strong>Numéro Adeli :</strong> 149308736</p>
-
-      <p><strong>Hébergement :</strong><br />
-      [Nom de l’hébergeur, ex. Vercel]<br />
-      [Adresse de l’hébergeur]</p>
 
       <p><strong>Directrice de la publication :</strong><br />
       Charlène GUÉRARD</p>

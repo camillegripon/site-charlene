@@ -8,9 +8,6 @@ export default function Hero() {
     <div className="hero-image">
       <img src="/photo/rectangle.jpg" alt="Nom Prénom, psychologue" />
     </div>
-    <div className="hero-image">
-      <img src="/photo/profil3.jpg" alt="Nom Prénom, psychologue" />
-    </div>
   </div>
 </section>
 

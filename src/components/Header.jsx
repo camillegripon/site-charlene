@@ -11,8 +11,9 @@ export default function Header() {
         <div className="nav-links">
           <Link to="/#approche">Psychologie</Link>
           <Link to="/#formation">Sexologie</Link>
-          <Link to="/tarif">Tarif</Link>
-          <Link to="https://www.doctolib.fr/" className="button">Prendre RDV</Link>
+          <Link to="/tarif/#tarif">Tarif</Link>
+          <Link to="/tarif/#acces">Accès</Link>
+          <Link to="https://www.doctolib.fr/psychologue/herouville-saint-clair/charlene-guerard/" className="button">Prendre RDV</Link>
         </div>
       </nav>
     </header>

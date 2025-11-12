@@ -1,6 +1,6 @@
 :root {
-  --main-bg-color : rgba(98, 76, 68);
-  --secondary-bg-color : rgba(255, 248, 242);
+  --main-bg-color : rgba(98, 76, 68, 0.9);
+  --secondary-bg-color : rgba(255, 248, 242, 0.7);
 }
 
 * {
@@ -105,8 +105,14 @@ nav a:hover {
 /* Sections générales */
 
 h2 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Noto Serif';
   font-weight: 700;
+background-color: var(--secondary-bg-color);
+max-width: fit-content;
+margin: auto;
+padding: 10px;
+color: white;
+border-radius: 10px;
 }
 .section {
   padding: 60px 0;
@@ -115,7 +121,7 @@ h2 {
 
 .section h2 {
   font-size: 2rem;
-  color: #2c3e50;
+  color: var(--main-bg-color);
   margin-bottom: 40px;
 }
 
@@ -125,6 +131,7 @@ h2 {
   gap: 30px;
   justify-content: center;
   flex-wrap: wrap;
+
 }
 
 .card {
@@ -200,10 +207,21 @@ footer {
 
 /* Footer */
 footer {
-  background: #2c3e50; 
+  background:#41535d; 
   color: white;
   padding: 40px 0 20px;
   margin-top: 60px;
+  position: relative;
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  right: 20px;
+  width: 40px;
+  height: 25px;
+  background-image: url("/photo/lgbtlogo.jpeg");
+  background-size: cover;
 }
 
 .footer-content {
@@ -245,6 +263,7 @@ footer {
   color: #bdc3c7;
   font-size: 0.9rem;
 }
+
 
 /* Icônes */
 .footer-section i {
@@ -317,6 +336,11 @@ footer {
 
 .approche-text {
   flex: 1;
+}
+
+.approche-text {
+  color: white;
+  font-size: 1.2rem;
 }
 
 .approche-item {
@@ -454,4 +478,26 @@ nav a:hover {
   nav a {
     margin: 0 15px;
   }
+}
+
+.card-section3 {
+justify-content: center;
+background-color: var(--main-bg-color);
+padding: 20px;
+border-radius: 10px;
+}
+
+.card-section3 > p {
+  color: white;
+font-size: 1.2rem;
+}
+
+.item-content > p {
+  color: white;
+font-size: 1.2rem;
+}
+
+.item-content > h3 {
+  color: white;
+font-size: 1.2rem;
 }

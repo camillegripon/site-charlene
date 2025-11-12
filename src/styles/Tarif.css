@@ -7,6 +7,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 20px;
+  margin-bottom: 30px;
 }
 
 .card {
@@ -17,11 +18,79 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   font-family: Arial, sans-serif;
-  background-color: #e3f2fd; /* Couleur unique */
   border: 1px solid #bbdefb; /* Bordure assortie */
+background-color: var(--main-bg-color);
+  justify-content: center;
+border: none;
 }
 
 .card h2 {
   margin-top: 0;
-  color: #333;
+  color: white;
+  background-color: var(--main-bg-color);
+}
+
+.card >p {
+  color: white;
+text-align: center;
+}
+
+
+#acces {
+  display: flex;
+  align-items: center; /* Centre verticalement */
+  justify-content: space-between; /* Espace entre texte et image */
+  gap: 15px; /* Espace entre les éléments */
+}
+
+#acces .content {
+  flex: 1; /* Le texte prend l'espace disponible */
+}
+
+#acces img {
+  max-width: 45%; /* L'image prend max 45% de la largeur de la carte */
+  height: auto;
+  border-radius: 8px; /* Optionnel : arrondir les coins */
+}
+
+.card {
+  overflow: hidden; 
+  padding: 15px;
+  box-sizing: border-box; 
+}
+
+.card > img {
+  max-width: 45%; /* L'image prend max 45% de la largeur de la carte */
+  height: auto;
+  border-radius: 8px; /* Optionnel : arrondir les coins */
+}
+
+#rdv {
+  display: flex;
+  align-items: center; /* Centre verticalement */
+  justify-content: space-between; /* Espace entre texte et image */
+  gap: 15px; /* Espace entre les éléments */
+}
+
+#rdv .content {
+  flex: 1;
+}
+
+button {
+  background: rgba(98, 76, 68, 0.9);
+  color: white;
+  padding: 12px;
+  margin-top: 10px;
+box-shadow: none;
+border: none;
+border-radius: 10px;
+}
+
+a {
+  color : inherit;
+  text-decoration: none;
+}
+
+.card > h2 {
+  margin-bottom: 20px;
 }
