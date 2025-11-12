@@ -18,8 +18,7 @@ export default function Tarif() {
       </div>
       <div className='cards'>
         <div className='card' id='acces'>
-          <p>Le site se trouve au 53 rue de Strasbourg et dispose d'un accès PMR</p>
-<p> ces accompagnements s'adressent a tout·tes, quelle que soit leur orientation affective, sexuelle, leur identité ou expression de genre.
+          <p>Le site se trouve au 53 rue de Strasbourg et dispose d'un accès PMR. Ces accompagnements s'adressent a tous·tes, quelle que soit leur orientation affective, sexuelle, leur identité ou expression de genre.
 Cet espace est inclusif et les personnes LGBTQIA+ y sont les bienvenus</p>
           <img src="/photo/acces.jpeg" alt="Accès PMR - Cabinet accessible" />
         </div>
