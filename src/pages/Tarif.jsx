@@ -19,7 +19,7 @@ export default function Tarif() {
       <div className='cards'>
         <div className='card' id='rdv'>
           <img src="/photo/cabinet.jpeg" alt="photo du cabinet" />
-          <p>Vous pouvez prendre rendez vous directement par telephone au 06.36.27.54.80 ou par <button><a href="https://www.https://www.doctolib.fr/psychologue/herouville-saint-clair/charlene-guerard">Doctolib</a></button></p>
+          <p>Vous pouvez prendre rendez vous directement par telephone au 06.36.27.54.80 ou par <button><a href="https://www.doctolib.fr/psychologue/herouville-saint-clair/charlene-guerard">Doctolib</a></button></p>
 
         </div></div>
     </div>
