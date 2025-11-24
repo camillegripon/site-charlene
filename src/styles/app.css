@@ -367,6 +367,10 @@ footer::before {
   margin: 0;
 }
 
+.lgbtLogo {
+  max-height: 10px;
+  max-width: 15px;
+}
 /* Responsive */
 @media (max-width: 768px) {
   .approche-container {
@@ -537,4 +541,10 @@ font-size: 1.2rem;
 .item-content > h3 {
   color: white;
 font-size: 1.2rem;
+}
+
+.approche-text > p {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
 }

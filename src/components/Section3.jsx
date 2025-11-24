@@ -1,3 +1,4 @@
+import { height } from '@fortawesome/free-solid-svg-icons/fa0';
 import { Link } from 'react-router-dom';
 
 export default function Section3() {
@@ -18,6 +19,15 @@ export default function Section3() {
                 alt="Espace d'écoute bienveillant"
                 className="approche-img"
               />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='cards'>
+        <div className='card'>
+          <div className='approche-container'>
+            <div className='approche-text'>
+              <p> Nous disposons d'un accès aux Personnes à Mobilité Réduite. Ces accompagnements s'adressent a tous·tes, quelle que soit leur orientation affective, sexuelle, leur identité ou expression de genre. Cet espace est inclusif et les personnes LGBTQIA+ y sont les bienvenus <img src="/photo/lgbtlogo.jpeg" alt="drapeau LGBT" className='lgbtLogo'/></p>
             </div>
           </div>
         </div>

@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Agenda from './pages/Agenda';
 import MentionsLegales from './pages/MentionsLegales';
 import Confidentialite from './pages/Confidentialite';
+import Acces from './pages/Acces';
 import './styles/app.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path="/agenda" element={<Agenda />} />
             <Route path="/mentions-legales" element={<MentionsLegales />} />
             <Route path="/confidentialite" element={<Confidentialite />} />
+            <Route path="/acces" element={<Acces/>} />
           </Routes>
           <Footer />
         </div>
