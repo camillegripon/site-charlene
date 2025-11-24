@@ -27,7 +27,7 @@ export default function Section3() {
         <div className='card'>
           <div className='approche-container'>
             <div className='approche-text'>
-              <p> Nous disposons d'un accès aux Personnes à Mobilité Réduite. Ces accompagnements s'adressent a tous·tes, quelle que soit leur orientation affective, sexuelle, leur identité ou expression de genre. Cet espace est inclusif et les personnes LGBTQIA+ y sont les bienvenus <img src="/photo/lgbtlogo.jpeg" alt="drapeau LGBT" className='lgbtLogo'/></p>
+              <p>Ces accompagnements s'adressent a tous·tes, quelle que soit leur orientation affective, sexuelle, leur identité ou expression de genre. Cet espace est inclusif et les personnes LGBTQIA+ y sont les bienvenus <img src="/photo/lgbtlogo.jpeg" alt="drapeau LGBT" className='lgbtLogo'/></p>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ export default function Acces() {
         <div className='page'>
             <div className='cards'>
                 <div className='card' id='acces'>
-                    <p>Le cabinet se trouve au 53 rue de Strasbourg à Hérouville-Saint-Clair et il est accessible PMR.</p>
+                    <p>Le cabinet est accessible aux personnes à mobilité réduite.</p>
                     <img src="/photo/acces.jpeg" alt="Accès PMR - Cabinet accessible" />
                 </div>
             </div>
