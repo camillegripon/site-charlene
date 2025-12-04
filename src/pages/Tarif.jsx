@@ -8,12 +8,12 @@ export default function Tarif() {
         <div className='card'>
           <h2>Séance de psychologie</h2>
           <p>Individuelle : 60 euros</p>
-          <p>En couple : 80 euros</p>
+
         </div>
         <div className='card'>
           <h2>Séance de sexologie</h2>
           <p>Individuelle : 60 euros</p>
-          <p>En couple : 80 euros</p>
+
         </div>
       </div>
       <div className='cards'>
