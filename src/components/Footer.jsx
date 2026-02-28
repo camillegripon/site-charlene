@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer-section">
           <h3>Contact</h3>
           <p><i className="fas fa-map-marker-alt"></i> Adresse du cabinet : <br />CCSM 53 rue de Strasbourg Hérouville-Saint-Clair</p>
-          <p><i className="fas fa-phone"></i>06.36.27.54.80</p>
+          <p><i className="fas fa-phone"></i>06.20.47.59.35</p>
           <p><i className="fas fa-envelope"></i>guerardpsychologue@outlook.fr </p>
         </div>
         <div className="footer-section">
